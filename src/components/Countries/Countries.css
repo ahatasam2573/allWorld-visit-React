@@ -1,0 +1,11 @@
+.countries-container{
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(32, 64, 245);
+    padding: 20px;
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
